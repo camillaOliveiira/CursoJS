@@ -24,9 +24,10 @@
     <!-- JavaScript / Interacao -->
     <script>
         // prompt le somente string
-        var n1 = window.prompt('Digite um numero: ') // string
-        var n2 = window.prompt('Digite outro numero: ') // string
-        var s = n1 
+        var n1 = Number(window.prompt('Digite um numero: ')) // converter string para numero
+        var n2 = Number(window.prompt('Digite outro numero: ')) // converter string para numero
+        var s = n1 + n2
+        window.alert('A soma dos valores é: ' + s) // Concatenacao --> +
         // (number + number) para adicao
         // (string + string) para concatenacao
     </script>
